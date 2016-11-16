@@ -240,7 +240,7 @@ a:link{ text-decoration: none; cursor: pointer; }  a:visited{  text-decoration: 
 
 .teaching li{ width: 315px; height: 219px; overflow: hidden; float: left; margin:0 27px 27px 0;   }
 
-.teaching li img{ transition: all 0.5s; }
+.teaching li img{ transition: all 0.5s; width:100%; }
 
 .teaching_img img:hover{ transform: scale3d( 1.2,1.2,1); }
 
@@ -426,7 +426,7 @@ a:link{ text-decoration: none; cursor: pointer; }  a:visited{  text-decoration: 
 
 /*盒子内容切换*/
 
-.vedio_toggle{ width: 1000px; height: 466px; margin: 10px auto 10px; }
+.vedio_toggle{ width: 1000px;/* height: 466px;*/ margin: 10px auto 10px; }
 
 .vedio_toggle li{ width: 241px; height: 228px; margin-right: 9px; float: left; position: relative;
 
